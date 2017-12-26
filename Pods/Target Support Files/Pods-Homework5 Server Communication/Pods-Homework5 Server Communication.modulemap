@@ -1,0 +1,6 @@
+framework module Pods_Homework5_Server_Communication {
+  umbrella header "Pods-Homework5 Server Communication-umbrella.h"
+
+  export *
+  module * { export * }
+}

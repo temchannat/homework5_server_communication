@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5794311E3D78D3DB4BD598F0 /* Pods_Homework5_Server_Communication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF32BF879B7040035F687B /* Pods_Homework5_Server_Communication.framework */; };
+		9B45BAC71FF0B63D007B3D0D /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BAC61FF0B63D007B3D0D /* Author.swift */; };
+		9B45BAC91FF0B7F7007B3D0D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BAC81FF0B7F7007B3D0D /* Article.swift */; };
+		9B45BACB1FF0B8A1007B3D0D /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BACA1FF0B8A1007B3D0D /* Pagination.swift */; };
+		9B45BACD1FF0B96D007B3D0D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BACC1FF0B96D007B3D0D /* Category.swift */; };
+		9B45BACF1FF0BBE4007B3D0D /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BACE1FF0BBE4007B3D0D /* ArticleService.swift */; };
+		9B45BAD11FF0DA0F007B3D0D /* ArticleServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BAD01FF0DA0F007B3D0D /* ArticleServiceProtocol.swift */; };
+		9B45BAD31FF0EFDB007B3D0D /* ArticlePresentorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BAD21FF0EFDB007B3D0D /* ArticlePresentorProtocol.swift */; };
+		9B45BAD51FF0F064007B3D0D /* ArticlePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BAD41FF0F064007B3D0D /* ArticlePresenter.swift */; };
+		9BBC96A61FF2D9EB00548D3E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC96A51FF2D9EA00548D3E /* DetailViewController.swift */; };
 		9BE0AA541FF09EC8005E899E /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE0AA521FF09EC8005E899E /* ImageTableViewCell.swift */; };
 		9BE0AA551FF09EC8005E899E /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BE0AA531FF09EC8005E899E /* ImageTableViewCell.xib */; };
 		9BE0AA571FF09FFD005E899E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE0AA561FF09FFD005E899E /* Assets.xcassets */; };
@@ -21,6 +31,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21CF32BF879B7040035F687B /* Pods_Homework5_Server_Communication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework5_Server_Communication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B45BAC61FF0B63D007B3D0D /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		9B45BAC81FF0B7F7007B3D0D /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		9B45BACA1FF0B8A1007B3D0D /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		9B45BACC1FF0B96D007B3D0D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9B45BACE1FF0BBE4007B3D0D /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
+		9B45BAD01FF0DA0F007B3D0D /* ArticleServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleServiceProtocol.swift; sourceTree = "<group>"; };
+		9B45BAD21FF0EFDB007B3D0D /* ArticlePresentorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePresentorProtocol.swift; sourceTree = "<group>"; };
+		9B45BAD41FF0F064007B3D0D /* ArticlePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePresenter.swift; sourceTree = "<group>"; };
+		9BBC96A51FF2D9EA00548D3E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9BE0AA521FF09EC8005E899E /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		9BE0AA531FF09EC8005E899E /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 		9BE0AA561FF09FFD005E899E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,6 +54,8 @@
 		9BF80FCA1FEF8EA400320C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF80FD51FEFA00100320C38 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		9BF80FD61FEFA00100320C38 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		D7EE3FFDB18343BCDC5A5945 /* Pods-Homework5 Server Communication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework5 Server Communication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Homework5 Server Communication/Pods-Homework5 Server Communication.debug.xcconfig"; sourceTree = "<group>"; };
+		FFFD05FE61180E5D7CE98227 /* Pods-Homework5 Server Communication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework5 Server Communication.release.xcconfig"; path = "Pods/Target Support Files/Pods-Homework5 Server Communication/Pods-Homework5 Server Communication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,12 +63,120 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5794311E3D78D3DB4BD598F0 /* Pods_Homework5_Server_Communication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EA3B7CF43232538AF6C2753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21CF32BF879B7040035F687B /* Pods_Homework5_Server_Communication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BC7D4DE1FF0B3C8005B2AAA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9BF80FBE1FEF8EA400320C38 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9BC7D4DF1FF0B3E7005B2AAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BF80FC01FEF8EA400320C38 /* HomeViewController.swift */,
+				9BBC96A51FF2D9EA00548D3E /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9BC7D4E01FF0B40C005B2AAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B45BAC61FF0B63D007B3D0D /* Author.swift */,
+				9B45BAC81FF0B7F7007B3D0D /* Article.swift */,
+				9B45BACA1FF0B8A1007B3D0D /* Pagination.swift */,
+				9B45BACC1FF0B96D007B3D0D /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9BC7D4E11FF0B42A005B2AAA /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7D4E21FF0B439005B2AAA /* Protocols */,
+				9B45BAD41FF0F064007B3D0D /* ArticlePresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		9BC7D4E21FF0B439005B2AAA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9B45BAD21FF0EFDB007B3D0D /* ArticlePresentorProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9BC7D4E31FF0B44B005B2AAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BF80FCA1FEF8EA400320C38 /* Info.plist */,
+				9BE0AA561FF09FFD005E899E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9BC7D4E41FF0B46A005B2AAA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7D4E51FF0B475005B2AAA /* Protocols */,
+				9B45BACE1FF0BBE4007B3D0D /* ArticleService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9BC7D4E51FF0B475005B2AAA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9B45BAD01FF0DA0F007B3D0D /* ArticleServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9BC7D4E61FF0B48A005B2AAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7D4E81FF0B4BD005B2AAA /* Storyboards */,
+				9BC7D4E71FF0B4AB005B2AAA /* Custom Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BC7D4E71FF0B4AB005B2AAA /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9BE0AA511FF09E8A005E899E /* Image Cell */,
+				9BE0AA581FF0A405005E899E /* Title Cell */,
+				9BF80FD01FEF9FB400320C38 /* News Cell */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		9BC7D4E81FF0B4BD005B2AAA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9BF80FC21FEF8EA400320C38 /* Main.storyboard */,
+				9BF80FC71FEF8EA400320C38 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		9BE0AA511FF09E8A005E899E /* Image Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +200,8 @@
 			children = (
 				9BF80FBD1FEF8EA400320C38 /* Homework5 Server Communication */,
 				9BF80FBC1FEF8EA400320C38 /* Products */,
-				9BE0AA561FF09FFD005E899E /* Assets.xcassets */,
+				CB46187B4787976BA1B7CE51 /* Pods */,
+				3EA3B7CF43232538AF6C2753 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,14 +216,13 @@
 		9BF80FBD1FEF8EA400320C38 /* Homework5 Server Communication */ = {
 			isa = PBXGroup;
 			children = (
-				9BE0AA511FF09E8A005E899E /* Image Cell */,
-				9BE0AA581FF0A405005E899E /* Title Cell */,
-				9BF80FD01FEF9FB400320C38 /* News Cell */,
-				9BF80FBE1FEF8EA400320C38 /* AppDelegate.swift */,
-				9BF80FC01FEF8EA400320C38 /* HomeViewController.swift */,
-				9BF80FC21FEF8EA400320C38 /* Main.storyboard */,
-				9BF80FC71FEF8EA400320C38 /* LaunchScreen.storyboard */,
-				9BF80FCA1FEF8EA400320C38 /* Info.plist */,
+				9BC7D4E01FF0B40C005B2AAA /* Models */,
+				9BC7D4E61FF0B48A005B2AAA /* Views */,
+				9BC7D4DF1FF0B3E7005B2AAA /* Controllers */,
+				9BC7D4E11FF0B42A005B2AAA /* Presenters */,
+				9BC7D4E41FF0B46A005B2AAA /* Services */,
+				9BC7D4E31FF0B44B005B2AAA /* Resources */,
+				9BC7D4DE1FF0B3C8005B2AAA /* Application */,
 			);
 			path = "Homework5 Server Communication";
 			sourceTree = "<group>";
@@ -106,6 +236,15 @@
 			path = "News Cell";
 			sourceTree = "<group>";
 		};
+		CB46187B4787976BA1B7CE51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7EE3FFDB18343BCDC5A5945 /* Pods-Homework5 Server Communication.debug.xcconfig */,
+				FFFD05FE61180E5D7CE98227 /* Pods-Homework5 Server Communication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BF80FCD1FEF8EA400320C38 /* Build configuration list for PBXNativeTarget "Homework5 Server Communication" */;
 			buildPhases = (
+				4295A993E9E89519848CDF4A /* [CP] Check Pods Manifest.lock */,
 				9BF80FB71FEF8EA400320C38 /* Sources */,
 				9BF80FB81FEF8EA400320C38 /* Frameworks */,
 				9BF80FB91FEF8EA400320C38 /* Resources */,
+				96F729A587625CA79046DF0B /* [CP] Embed Pods Frameworks */,
+				87E1F76798CBCF633691CC62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,16 +318,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4295A993E9E89519848CDF4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homework5 Server Communication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87E1F76798CBCF633691CC62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Homework5 Server Communication/Pods-Homework5 Server Communication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F729A587625CA79046DF0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Homework5 Server Communication/Pods-Homework5 Server Communication-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Homework5 Server Communication/Pods-Homework5 Server Communication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BF80FB71FEF8EA400320C38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B45BACF1FF0BBE4007B3D0D /* ArticleService.swift in Sources */,
+				9B45BAD31FF0EFDB007B3D0D /* ArticlePresentorProtocol.swift in Sources */,
+				9B45BAC91FF0B7F7007B3D0D /* Article.swift in Sources */,
+				9B45BAC71FF0B63D007B3D0D /* Author.swift in Sources */,
 				9BE0AA5B1FF0A41C005E899E /* TitleTableViewCell.swift in Sources */,
+				9B45BAD11FF0DA0F007B3D0D /* ArticleServiceProtocol.swift in Sources */,
 				9BF80FC11FEF8EA400320C38 /* HomeViewController.swift in Sources */,
+				9B45BAD51FF0F064007B3D0D /* ArticlePresenter.swift in Sources */,
 				9BE0AA541FF09EC8005E899E /* ImageTableViewCell.swift in Sources */,
+				9B45BACD1FF0B96D007B3D0D /* Category.swift in Sources */,
+				9B45BACB1FF0B8A1007B3D0D /* Pagination.swift in Sources */,
 				9BF80FBF1FEF8EA400320C38 /* AppDelegate.swift in Sources */,
 				9BF80FD71FEFA00100320C38 /* NewsTableViewCell.swift in Sources */,
+				9BBC96A61FF2D9EB00548D3E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,11 +529,13 @@
 		};
 		9BF80FCE1FEF8EA400320C38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EE3FFDB18343BCDC5A5945 /* Pods-Homework5 Server Communication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QZSS4MQNV;
-				INFOPLIST_FILE = "Homework5 Server Communication/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Homework5 Server Communication/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.channat.Homework5-Server-Communication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -335,11 +546,13 @@
 		};
 		9BF80FCF1FEF8EA400320C38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFD05FE61180E5D7CE98227 /* Pods-Homework5 Server Communication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QZSS4MQNV;
-				INFOPLIST_FILE = "Homework5 Server Communication/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Homework5 Server Communication/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.channat.Homework5-Server-Communication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
