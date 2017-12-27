@@ -61,7 +61,7 @@ class ArticleService {
                         }
                             // TODO: Update Article
                         else {
-                            Alamofire.request("\(self.articleUrl)/\(article.id)", method: .put, parameters: parameters, encoding: JSONEncoding.default, headers: self.headers).responseJSON { (response) in
+                            Alamofire.request("\(self.articleUrl)/\(article.id!)", method: .put, parameters: parameters, encoding: JSONEncoding.default, headers: self.headers).responseJSON { (response) in
                                 if response.result.isSuccess {
                                     print("======> Updated!")
                                     // --- put rounded cycle network on the top near the clock

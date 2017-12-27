@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5794311E3D78D3DB4BD598F0 /* Pods_Homework5_Server_Communication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CF32BF879B7040035F687B /* Pods_Homework5_Server_Communication.framework */; };
-		9B45BAC71FF0B63D007B3D0D /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BAC61FF0B63D007B3D0D /* Author.swift */; };
 		9B45BAC91FF0B7F7007B3D0D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BAC81FF0B7F7007B3D0D /* Article.swift */; };
 		9B45BACB1FF0B8A1007B3D0D /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BACA1FF0B8A1007B3D0D /* Pagination.swift */; };
-		9B45BACD1FF0B96D007B3D0D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BACC1FF0B96D007B3D0D /* Category.swift */; };
 		9B45BACF1FF0BBE4007B3D0D /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BACE1FF0BBE4007B3D0D /* ArticleService.swift */; };
 		9B45BAD11FF0DA0F007B3D0D /* ArticleServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BAD01FF0DA0F007B3D0D /* ArticleServiceProtocol.swift */; };
 		9B45BAD31FF0EFDB007B3D0D /* ArticlePresentorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B45BAD21FF0EFDB007B3D0D /* ArticlePresentorProtocol.swift */; };
@@ -33,10 +31,8 @@
 
 /* Begin PBXFileReference section */
 		21CF32BF879B7040035F687B /* Pods_Homework5_Server_Communication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework5_Server_Communication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B45BAC61FF0B63D007B3D0D /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		9B45BAC81FF0B7F7007B3D0D /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		9B45BACA1FF0B8A1007B3D0D /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
-		9B45BACC1FF0B96D007B3D0D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		9B45BACE1FF0BBE4007B3D0D /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
 		9B45BAD01FF0DA0F007B3D0D /* ArticleServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleServiceProtocol.swift; sourceTree = "<group>"; };
 		9B45BAD21FF0EFDB007B3D0D /* ArticlePresentorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePresentorProtocol.swift; sourceTree = "<group>"; };
@@ -101,10 +97,8 @@
 		9BC7D4E01FF0B40C005B2AAA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9B45BAC61FF0B63D007B3D0D /* Author.swift */,
 				9B45BAC81FF0B7F7007B3D0D /* Article.swift */,
 				9B45BACA1FF0B8A1007B3D0D /* Pagination.swift */,
-				9B45BACC1FF0B96D007B3D0D /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -387,14 +381,12 @@
 				9B45BACF1FF0BBE4007B3D0D /* ArticleService.swift in Sources */,
 				9B45BAD31FF0EFDB007B3D0D /* ArticlePresentorProtocol.swift in Sources */,
 				9B45BAC91FF0B7F7007B3D0D /* Article.swift in Sources */,
-				9B45BAC71FF0B63D007B3D0D /* Author.swift in Sources */,
 				9BE0AA5B1FF0A41C005E899E /* TitleTableViewCell.swift in Sources */,
 				9B45BAD11FF0DA0F007B3D0D /* ArticleServiceProtocol.swift in Sources */,
 				9BF80FC11FEF8EA400320C38 /* HomeViewController.swift in Sources */,
 				9BBC96A81FF334B800548D3E /* SaveArticleViewController.swift in Sources */,
 				9B45BAD51FF0F064007B3D0D /* ArticlePresenter.swift in Sources */,
 				9BE0AA541FF09EC8005E899E /* ImageTableViewCell.swift in Sources */,
-				9B45BACD1FF0B96D007B3D0D /* Category.swift in Sources */,
 				9B45BACB1FF0B8A1007B3D0D /* Pagination.swift in Sources */,
 				9BF80FBF1FEF8EA400320C38 /* AppDelegate.swift in Sources */,
 				9BF80FD71FEFA00100320C38 /* NewsTableViewCell.swift in Sources */,
