@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,10 +19,9 @@
                 <rect key="frame" x="0.0" y="0.0" width="397" height="99.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gIc-Am-Vow">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gIc-Am-Vow">
                         <rect key="frame" x="8" y="8" width="83.5" height="83.5"/>
                         <constraints>
-                            <constraint firstAttribute="width" secondItem="gIc-Am-Vow" secondAttribute="height" multiplier="1:1" id="H6E-jw-xTZ"/>
                             <constraint firstAttribute="width" constant="83.5" id="MkM-Ds-ylQ"/>
                             <constraint firstAttribute="height" constant="83.5" id="ruz-kX-kpY"/>
                         </constraints>
@@ -103,12 +101,12 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="articleImageView" destination="gIc-Am-Vow" id="dTm-7Z-5fh"/>
                 <outlet property="dateLabel" destination="vSN-ZM-xt4" id="cAB-qe-GJj"/>
-                <outlet property="newsImageView" destination="gIc-Am-Vow" id="dTm-7Z-5fh"/>
                 <outlet property="numberOfViewLabel" destination="CWJ-rx-6Hv" id="8lI-lY-AzL"/>
                 <outlet property="titleLabel" destination="v3m-Dv-scz" id="Fpd-YS-3Ny"/>
             </connections>
-            <point key="canvasLocation" x="72.5" y="121"/>
+            <point key="canvasLocation" x="-44" y="100"/>
         </tableViewCell>
     </objects>
     <resources>

@@ -10,7 +10,7 @@ import UIKit
 
 class NewsTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var newsImageView: UIImageView!
+    @IBOutlet weak var articleImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var numberOfViewLabel: UILabel!
@@ -29,7 +29,7 @@ class NewsTableViewCell: UITableViewCell {
         titleLabel.text = article.title
         dateLabel.text = article.createdDate
         numberOfViewLabel.text = "4 views"
-        imageView?.kf.setImage(with: URL(string: article.image!), placeholder: #imageLiteral(resourceName: "frog"))
+        articleImageView?.kf.setImage(with: URL(string: article.image!), placeholder: #imageLiteral(resourceName: "frog"))
     }
     @IBAction func saveButtonAction(_ sender: Any) {
     }

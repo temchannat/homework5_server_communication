@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class Article: Mappable {
+struct Article: Mappable {
     
     var id: Int?
     var title: String?
@@ -18,10 +18,13 @@ class Article: Mappable {
     var category: Category?
     var createdDate: String?
     
-    required init?(map: Map) {
+    init() {
     }
     
-    func mapping(map: Map) {
+    init?(map: Map) {
+    }
+    
+    mutating func mapping(map: Map) {
         id          <- map["ID"]
         title       <- map["TITLE"]
         description <- map["DESCRIPTION"]

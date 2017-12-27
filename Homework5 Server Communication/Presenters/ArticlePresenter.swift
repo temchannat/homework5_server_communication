@@ -22,6 +22,10 @@ class ArticlePresenter: ArticleServiceProtocol{
         self.articleService?.getArtcles(page: page, limit: limit)
     }
     
+    func saveArticle(article: Article, image: Data) {
+        self.articleService?.saveArticle(article: article, image: image)
+    }
+    
     func deleteAricle(id: Int) {
         self.articleService?.deleteArticle(id: id)
     }
